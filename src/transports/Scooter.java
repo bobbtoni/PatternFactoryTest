@@ -5,7 +5,7 @@ import base.Transport;
 public class Scooter extends Transport {
 
     public Scooter(Integer numberOfWheels, Integer maxSpeed) {
-        super(numberOfWheels, maxSpeed);
+        super("самокат", numberOfWheels, maxSpeed);
     }
 
     @Override

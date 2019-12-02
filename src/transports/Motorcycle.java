@@ -6,7 +6,7 @@ public class Motorcycle extends Transport {
 
 
     public Motorcycle(Integer numberOfWheels, Integer maxSpeed) {
-        super(numberOfWheels, maxSpeed);
+        super("мотоцикл", numberOfWheels, maxSpeed);
     }
 
     @Override
